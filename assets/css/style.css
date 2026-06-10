@@ -154,4 +154,16 @@ footer p {
     flex-direction: column;
     text-align: center;
   }
+
+  .card {
+    width: 250px;
+}
+    main {
+      display: grid;
+      grid-template-columns: repeat(6, 250px);
+      justify-content: center;
+      gap: 2rem;
+      align-content: start;
+    }
+  
 }
